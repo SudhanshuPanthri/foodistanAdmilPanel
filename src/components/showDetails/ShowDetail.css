@@ -1,0 +1,19 @@
+.detailDiv{
+    height:50vh;
+    width:60%;
+    margin:0 auto;
+    border:2px solid black;
+    border-radius: 12px;
+}
+
+.detailDiv>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:12px;
+}
+
+.detailDiv >div>p {
+    font-size: 20px;
+    font-weight: 500;
+}
